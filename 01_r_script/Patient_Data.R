@@ -237,22 +237,10 @@ confusion_matrix
 accuracy <- sum(diag(confusion_matrix)) / sum(confusion_matrix)
 print(paste("Accuracy:", round(accuracy*100, 2), "%"))
 
-
-# accuracy = ((1337 + 2080)/(1337 + 238 + 345 + 2080))
-# accuracy = 85.43%
-
-# The model seems to perform reasonably well overall, with an accuracy of 85.43%
+# The model seems to perform reasonably well overall, with an accuracy of 85.22%
 # This confusion matrix provides valuable insights into the model's 
 # performance and can help guide further refinement or decision-making based 
 # on the model's predictions.
-
-
-# clustering using K-MEANS
-
-# set.seed(123)
-# km <- kmeans(x = project[,-16], centers = 3)
-# km$cluster
-# km$centers
 
 
 # write.csv(project, file = "patientdata.csv")
