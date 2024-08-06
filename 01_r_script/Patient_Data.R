@@ -229,7 +229,14 @@ pred
 act <- test[,'disease']
 
 # accuracy
-table(pred, act)
+confusion_matrix <- table(pred, act)
+confusion_matrix
+
+
+# Calculate accuracy
+accuracy <- sum(diag(confusion_matrix)) / sum(confusion_matrix)
+print(paste("Accuracy:", round(accuracy*100, 2), "%"))
+
 
 # accuracy = ((1337 + 2080)/(1337 + 238 + 345 + 2080))
 # accuracy = 85.43%
