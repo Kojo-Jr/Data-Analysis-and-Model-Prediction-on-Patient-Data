@@ -5,6 +5,6 @@ the results of 5 medical tests ranging from 0 to 100. It also has an indicator o
 whether or not the patient has a disease (0=yes, 1=no)
 
 # Model Performance
-The model seems to perform reasonably well overall, with an accuracy of 85.43%. This confusion
+The model seems to perform reasonably well overall, with an accuracy of 85.43%. The confusion
 matrix provides valuable insights into the model's performance and can help guide further
 refinement or decision-making based on the model's predictions
